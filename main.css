@@ -1,0 +1,59 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #303335;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #303335;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-peças-e-acessorios .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+
+#sobre-a-oficina, #peças-e-acessorios{
+    background-color: #eeeee9;
+}
+
+.nav-serviços .nav-link.active,
+#fale-conosco button {
+    background-color: #303335;
+    color: #fff;
+}
+
+.nav-serviços .nav-link:hover {
+    color: #303335;
+}
+
+.color-grey {        
+    color: #303335;
+
+    }
+
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
